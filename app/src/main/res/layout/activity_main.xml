@@ -68,7 +68,7 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/selectedDateInMinutes"
+        android:id="@+id/tvSelectedDateInMinutes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
