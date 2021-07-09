@@ -9,21 +9,14 @@
     android:background="@color/black"
     tools:context=".MainActivity">
 
-    <pl.droidsonroids.gif.GifImageView
-        android:id="@+id/gifbackground"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:scaleType="fitXY"
-        android:src="@drawable/maingif" />
-
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="false"
-        android:layout_marginLeft="40dp"
+        android:layout_marginLeft="50dp"
         android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-condensed-medium"
         android:text="CALCULATE YOUR"
         android:textColor="@color/textColor"
         android:textSize="35sp"
@@ -32,7 +25,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="155dp"
+        android:layout_marginLeft="150dp"
         android:layout_marginTop="95dp"
         android:background="@color/ageTextBackgroundColor"
         android:padding="10dp"
@@ -44,8 +37,9 @@
     <TextView
         android:layout_width="346dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="14dp"
+        android:layout_marginLeft="32dp"
         android:layout_marginTop="170dp"
+        android:fontFamily="sans-serif-condensed-medium"
         android:text="IN MINUTES AND DAYS"
         android:textColor="@color/textColor"
         android:textSize="32sp"
@@ -57,23 +51,27 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="245dp"
         android:text="Select Date"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:backgroundTint="#4D372643" />
 
     <TextView
         android:id="@+id/tvSelectedDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="385dp"
-        android:layout_marginLeft="145dp"
-        android:textColor="#1793e8"
-        android:textSize="18sp" />
+        android:layout_marginLeft="133dp"
+        android:layout_marginTop="370dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/textColor"
+        android:textSize="25sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="85dp"
+        android:layout_marginLeft="53dp"
         android:layout_marginTop="410dp"
+        android:fontFamily="serif-monospace"
         android:text="Selected Date"
         android:textColor="@color/lightGrayTextColor"
         android:textSize="33sp"
@@ -85,16 +83,18 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="500dp"
         android:layout_marginLeft="70dp"
-        android:textColor="#1793e8"
+        android:textColor="@color/textColor"
+        android:fontFamily="sans-serif-condensed-medium"
         android:textSize="18sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="525dp"
+        android:layout_marginTop="545dp"
+        android:fontFamily="monospace"
         android:text="  In Minutes Till Date"
         android:textColor="@color/lightGrayTextColor"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:textStyle="bold" />
 
     <TextView
@@ -102,18 +102,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="500dp"
-        android:layout_marginLeft="300dp"
-        android:textColor="#1793e8"
+        android:layout_marginLeft="280dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/textColor"
         android:textSize="18sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="525dp"
         android:layout_marginLeft="225dp"
+        android:layout_marginTop="545dp"
+        android:fontFamily="monospace"
         android:text="In Days Till Date"
         android:textColor="@color/lightGrayTextColor"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:textStyle="bold" />
 
 </RelativeLayout>
